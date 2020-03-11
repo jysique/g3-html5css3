@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>IGH SOFT</title>
+    <link rel="stylesheet" type="text/css" href="button.css">
+</head>
+<body>
+    <div class="cuerpo">
+        <header class="titulo">
+            <h1>IGH SOFT</h1>
+        </header><br><br>
+
+        <section class="topnav">
+            <a href="#home">Inicio</a>
+            <a class="active" href="#news">Clientes</a>
+            <a href="#contact">Categoria</a>
+            <a id="salir" href="#about">Log Out</a>
+        </section><br><br>
+        
+        <section class="formulario" >
+            <h2>Clientes</h2>
+            <form>
+                <label for="firstName" class="nombre">Nombre</label>
+                <input id="firstName"  class= "nombre" type="text"> <br><br>
+             
+                <label for="lastName" class="apellido">Apellido</label>
+                <input id="lastName" class="apellido" type="text"><br><br>
+
+                <label for="categoria" class ="categoria"> Categoria</label>
+                    <select id="categoria" class ="categoria">
+                        <option value="p">Premium</option>
+                        <option value="n">Normal</option>
+                        <option value="b">Bajo</option>
+                    </select> <br><br>
+
+                <label for="telefono" class ="telefono">Telefono</label>
+                <input id="telefono" class ="telefono" type="text"> <br><br>
+
+                <div class="save" >
+                    <input class="guardar" type="button" value="Guardar"> <br><br>
+                </div> 
+
+            </form>
+        </section>
+
+        <footer class="pie" >
+            © Marca Registrada
+        </footer>
+    </div>
+
+</body>
+</html>
